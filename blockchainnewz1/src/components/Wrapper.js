@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Row, Col } from 'react-bootstrap';
 
-class Wrapper extends React.Component {
+class Wrapper extends Component {
 render(){
   return (
     <Grid className="container-fluid">
@@ -15,4 +15,4 @@ render(){
 }
 }
 
-export {Wrapper};
+export default Wrapper;

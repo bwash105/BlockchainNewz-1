@@ -8,11 +8,10 @@ class Header extends Component {
 <Jumbotron>
   <h1>Hello, Blockchainerz!</h1>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+    This is a one stop news center for everything Blockchain.
   </p>
   <p>
-    <Button bsStyle="primary">Learn more</Button>
+    <Button bsStyle="success">Learn more</Button>
   </p>
 </Jumbotron>
     );

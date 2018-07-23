@@ -8,28 +8,20 @@ class Navibar extends Component {
 <Navbar inverse collapseOnSelect>
   <Navbar.Header>
     <Navbar.Brand>
-      <a href="#brand">BlockchainNewz</a>
-      <ul>
-      <li>
-          <a href="#brand">Home</a>
-      </li>
-      </ul>
+      <a href="#brand">React-Bootstrap</a>
     </Navbar.Brand>
-    {/* <Navbar.Toggle /> */}
+    <Navbar.Toggle />
   </Navbar.Header>
-  <Nav>
-      <NavItem eventKey={1} href="#">
-      Link
-      </NavItem>
-      <NavItem eventKey={2} href="#">
-        Link
-      </NavItem>
-    </Nav>
+  <Navbar.Collapse>
     <Nav pullRight>
       <NavItem eventKey={1} href="#">
         Link Right
       </NavItem>
+      <NavItem eventKey={2} href="#">
+        Link Right
+      </NavItem>
     </Nav>
+  </Navbar.Collapse>
 </Navbar>
     );
   }
