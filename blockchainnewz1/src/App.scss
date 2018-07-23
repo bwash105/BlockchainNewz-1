@@ -1,10 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 120px;
 }
 
 .App-header {
@@ -26,3 +28,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.h2 {
+  background-color: purple;
+  font-family: 'Titillium Web', sans-serif;
+}
+
